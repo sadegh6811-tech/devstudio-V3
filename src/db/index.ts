@@ -7,7 +7,6 @@ const globalForDb = globalThis as typeof globalThis & {
   __arenaNextJsPostgresqlPool?: Pool;
 };
 
-// Mock DB for when DATABASE_URL is not set
 const createChainable = () => {
   const chain: any = {
     where: () => chain,
@@ -23,9 +22,7 @@ const createChainable = () => {
 };
 
 const createMockDb = () => ({
-  select: () => ({
-    from: () => createChainable(),
-  }),
+  select: () => ({ from: () => createChainable() }),
   insert: () => ({ values: () => Promise.resolve([]) }),
   update: () => ({ set: () => ({ where: () => Promise.resolve([]) }) }),
   delete: () => ({ where: () => Promise.resolve([]) }),
@@ -35,16 +32,14 @@ let realPool: Pool | null = null;
 let realDb: any = null;
 
 if (databaseUrl) {
-  realPool = globalForDb.__arenaNextJsPostgresqlPool ?? new Pool({
-    connectionString: databaseUrl,
-  });
+  realPool = globalForDb.__arenaNextJsPostgresqlPool ?? new Pool({ connectionString: databaseUrl });
   if (process.env.NODE_ENV !== "production") {
     globalForDb.__arenaNextJsPostgresqlPool = realPool;
   }
   realDb = drizzle(realPool);
   console.log("[DB] Connected to PostgreSQL");
 } else {
-  console.log("[DB] DATABASE_URL not set — running in static mode (mock DB)");
+  console.log("[DB] DATABASE_URL not set — static mode");
 }
 
 export const pool = realPool;
