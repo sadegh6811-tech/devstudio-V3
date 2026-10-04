@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="DevStudio maskable icon">
+  <rect width="512" height="512" fill="#0A0E27"/>
+  <g transform="translate(256 256) scale(0.74) translate(-256 -256)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="50" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M176 132 L88 256 L176 380"/>
+      <path d="M336 132 L424 256 L336 380"/>
+    </g>
+    <path fill="#00D9A3" fill-rule="evenodd" d="M184 158 h46 a98 98 0 0 1 0 196 h-46 z M230 204 a52 52 0 0 1 0 104 z"/>
+  </g>
+</svg>

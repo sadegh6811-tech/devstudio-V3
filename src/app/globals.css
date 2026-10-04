@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/* ═══════════════════ متغیرهای طراحی (Design Tokens) ═══════════════════ */
+@theme {
+  --color-brand: #6c63ff;
+  --color-brand-soft: #8b84ff;
+  --color-accent: #00d9a3;
+  --color-coral: #ff6b6b;
+  --color-gold: #ffd93d;
+  --color-ink: #0a0e27;
+  --color-ink-deep: #05081a;
+  --color-ink-card: #0f1533;
+  --color-mist: rgba(255, 255, 255, 0.7);
+
+  --font-sans: var(--font-inter), "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-fa: var(--font-vazir), "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
+
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-float-slow: float 11s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-shine: shine 6s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-18px) rotate(3deg); }
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(0, 217, 163, 0.55); }
+  70% { box-shadow: 0 0 0 16px rgba(0, 217, 163, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 217, 163, 0); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #05081a;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(108, 99, 255, 0.45);
+  color: #fff;
+}
+
+/* اسکرول‌بار سفارشی */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #05081a; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6c63ff, #00d9a3);
+  border-radius: 999px;
+}
+
+/* ═══════════════════ کلاس‌های کمکی ═══════════════════ */
+@utility glass {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@utility glass-strong {
+  background: linear-gradient(145deg, rgba(15, 21, 51, 0.92), rgba(5, 8, 26, 0.86));
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+@utility gradient-text {
+  background: linear-gradient(100deg, #6c63ff 0%, #00d9a3 45%, #ffd93d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility text-mist {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@utility grid-bg {
+  background-image:
+    linear-gradient(rgba(108, 99, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(108, 99, 255, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@utility glow-brand {
+  box-shadow: 0 0 40px -8px rgba(108, 99, 255, 0.65);
+}
+
+@utility glow-accent {
+  box-shadow: 0 0 40px -8px rgba(0, 217, 163, 0.6);
+}
+
+/* پس‌زمینه کهکشانی کل سایت */
+.cosmos {
+  background:
+    radial-gradient(1200px 600px at 12% -10%, rgba(108, 99, 255, 0.28), transparent 60%),
+    radial-gradient(900px 500px at 92% 8%, rgba(0, 217, 163, 0.18), transparent 62%),
+    radial-gradient(700px 500px at 50% 110%, rgba(255, 107, 107, 0.14), transparent 60%),
+    #05081a;
+}
+
+/* نشانگر موس سفارشی (فقط دسکتاپ) */
+@media (pointer: fine) {
+  .cursor-dot {
+    position: fixed;
+    z-index: 9999;
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: #00d9a3;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+  .cursor-ring {
+    position: fixed;
+    z-index: 9998;
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(108, 99, 255, 0.85);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease;
+  }
+}
+
+/* احترام به کاربرانی که انیمیشن کمتری می‌خواهند */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* جهت راست‌به‌چپ */
+[dir="rtl"] .flip-x { transform: scaleX(-1); }

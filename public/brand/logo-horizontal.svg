@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160" role="img" aria-label="DevStudio">
+  <title>DevStudio — horizontal (dark backgrounds)</title>
+  <defs>
+    <linearGradient id="wm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="55%" stop-color="#8B84FF"/>
+      <stop offset="100%" stop-color="#00D9A3"/>
+    </linearGradient>
+  </defs>
+  <g transform="scale(0.3125)">
+    <g fill="none" stroke="#6C63FF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M176 132 L88 256 L176 380"/>
+      <path d="M336 132 L424 256 L336 380"/>
+    </g>
+    <path fill="#00D9A3" fill-rule="evenodd" d="M184 158 h46 a98 98 0 0 1 0 196 h-46 z M230 204 a52 52 0 0 1 0 104 z"/>
+  </g>
+  <text x="196" y="103" font-family="Inter, Vazirmatn, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-2">
+    <tspan fill="#FFFFFF">Dev</tspan><tspan fill="url(#wm)">Studio</tspan>
+  </text>
+</svg>

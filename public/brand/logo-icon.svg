@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="DevStudio icon">
+  <title>DevStudio — icon</title>
+  <!-- براکت چپ و راست: بنفش برند -->
+  <g fill="none" stroke="#6C63FF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 132 L88 256 L176 380"/>
+    <path d="M336 132 L424 256 L336 380"/>
+  </g>
+  <!-- حرف D هندسی: سبز نئون -->
+  <path fill="#00D9A3" fill-rule="evenodd" d="M184 158 h46 a98 98 0 0 1 0 196 h-46 z M230 204 a52 52 0 0 1 0 104 z"/>
+</svg>

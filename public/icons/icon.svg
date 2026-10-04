@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="DevStudio app icon">
+  <title>DevStudio — app icon (dark)</title>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0A0E27"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <!-- مدار ظریف جهانی (اختیاری) -->
+  <ellipse cx="256" cy="256" rx="212" ry="82" fill="none" stroke="#00D9A3" stroke-opacity="0.18" stroke-width="5" transform="rotate(-18 256 256)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 132 L88 256 L176 380"/>
+    <path d="M336 132 L424 256 L336 380"/>
+  </g>
+  <path fill="#00D9A3" fill-rule="evenodd" d="M184 158 h46 a98 98 0 0 1 0 196 h-46 z M230 204 a52 52 0 0 1 0 104 z"/>
+</svg>

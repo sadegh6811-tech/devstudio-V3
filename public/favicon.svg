@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32" role="img" aria-label="DevStudio favicon">
+  <rect width="512" height="512" rx="96" fill="#0A0E27"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="58" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M178 138 L96 256 L178 374"/>
+    <path d="M334 138 L416 256 L334 374"/>
+  </g>
+  <path fill="#00D9A3" fill-rule="evenodd" d="M186 162 h44 a94 94 0 0 1 0 188 h-44 z M230 208 a48 48 0 0 1 0 96 z"/>
+</svg>

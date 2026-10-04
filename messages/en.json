@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "siteName": "DevStudio",
+    "title": "DevStudio | International Software Development Agency",
+    "description": "DevStudio builds Python backends, mobile apps, modern websites and AI solutions for businesses in 40+ countries.",
+    "keywords": "python development, web design, mobile app, artificial intelligence, django, next.js"
+  },
+  "eyebrows": {
+    "services": "Services",
+    "whyUs": "Why us",
+    "process": "Process",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "compare": "Compare",
+    "faq": "FAQ",
+    "about": "About us",
+    "story": "Our story",
+    "values": "Values",
+    "team": "Team",
+    "certs": "Certifications",
+    "milestones": "Milestones",
+    "contact": "Contact",
+    "liveData": "Live data"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "brand": "Brand kit",
+    "cta": "Free Consultation",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Switch language"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "readMore": "Read article",
+    "send": "Send",
+    "sending": "Sending...",
+    "online": "Online",
+    "close": "Close",
+    "all": "All",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "back": "Back",
+    "minRead": "min read",
+    "from": "From",
+    "currency": "USD",
+    "year": "Year",
+    "client": "Client",
+    "category": "Category"
+  },
+  "hero": {
+    "badge": "Global software agency • since 2016",
+    "titleLine1": "We turn your ideas into",
+    "titleLine2": "world-class software",
+    "titleLine3": "that scales",
+    "subtitle": "DevStudio delivers Python engineering, mobile apps, modern web platforms and AI products used by teams across 40+ countries. From first idea to production launch, we are with you.",
+    "primary": "Start your project free",
+    "secondary": "Explore our work",
+    "trustedBy": "Trusted by engineering teams in",
+    "scrollHint": "Scroll to explore",
+    "badges": ["ISO 27001 certified", "96% on-time delivery", "Present in 40+ countries"],
+    "countries": ["🇩🇪 Germany", "🇬🇧 UK", "🇨🇦 Canada", "🇦🇪 UAE", "🇳🇱 Netherlands", "🇸🇪 Sweden", "🇮🇷 Iran", "🇦🇺 Australia"]
+  },
+  "stats": {
+    "items": [
+      { "value": "250+", "label": "Projects delivered" },
+      { "value": "40+", "label": "Countries served" },
+      { "value": "99%", "label": "Client satisfaction" },
+      { "value": "24/7", "label": "Live support" }
+    ]
+  },
+  "marquee": {
+    "title": "Technologies we build with every day"
+  },
+  "services": {
+    "title": "What we do best",
+    "subtitle": "Four engineering practices that cover every digital product from zero to launch.",
+    "cta": "Request a consultation for this service",
+    "items": [
+      {
+        "id": "python",
+        "title": "Python Development",
+        "desc": "Scalable backends with Django and FastAPI, automation scripts and API integrations that remove manual work.",
+        "features": ["Django web applications", "FastAPI microservices", "Automation & scripting", "API and webhook integration"],
+        "basePrice": "1,900",
+        "unit": "USD / project"
+      },
+      {
+        "id": "mobile",
+        "title": "Mobile Applications",
+        "desc": "Native iOS and Android apps plus cross-platform React Native builds — from prototype to store release.",
+        "features": ["Native iOS & Android", "React Native / Expo", "Payments & push notifications", "App Store & Play Store launch"],
+        "basePrice": "3,400",
+        "unit": "USD / project"
+      },
+      {
+        "id": "web",
+        "title": "Modern Web Design",
+        "desc": "Fast, SEO-ready sites with Next.js, React and Tailwind: e-commerce, dashboards and conversion-focused landing pages.",
+        "features": ["Next.js & React", "E-commerce & payments", "SEO and Core Web Vitals", "Custom design system"],
+        "basePrice": "1,500",
+        "unit": "USD / project"
+      },
+      {
+        "id": "ai",
+        "title": "AI Solutions",
+        "desc": "Intelligent chatbots, data analytics and machine learning or computer vision models that automate decisions.",
+        "features": ["Multilingual RAG chatbots", "Data analytics & forecasting", "Computer vision", "LLM workflow automation"],
+        "basePrice": "2,800",
+        "unit": "USD / project"
+      }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "subtitle": "A transparent four-stage journey from the first call to long-term support.",
+    "items": [
+      { "step": "01", "title": "Discovery", "desc": "Free session, requirement mapping, scope definition and an accurate cost and timeline estimate." },
+      { "step": "02", "title": "Design & Architecture", "desc": "UI prototype, technical architecture and the right technology stack for your constraints." },
+      { "step": "03", "title": "Agile Delivery", "desc": "Two-week sprints with live demos, progress reporting and automated quality gates." },
+      { "step": "04", "title": "Launch & Support", "desc": "Cloud deployment, 24/7 monitoring and continuous product iteration." }
+    ]
+  },
+  "whyUs": {
+    "title": "Why DevStudio?",
+    "subtitle": "Five reasons international teams pick us for mission-critical products.",
+    "items": [
+      { "title": "Senior, specialised team", "desc": "Our engineers average 8+ years of experience and every project gets a dedicated tech lead." },
+      { "title": "On-time, transparent delivery", "desc": "96% of projects shipped on schedule with a live progress dashboard you can open anytime." },
+      { "title": "Quality & security guarantee", "desc": "Automated tests, mandatory code review and OWASP compliance before every release." },
+      { "title": "24/7 global support", "desc": "Support engineers across three time zones with an average first response under 15 minutes." },
+      { "title": "Flexible payments", "desc": "Zarinpal for Iran, USDT TRC20 and Stripe internationally, plus milestone-based billing." }
+    ]
+  },
+  "portfolio": {
+    "title": "Selected work",
+    "subtitle": "Products built, shipped and scaled across four continents.",
+    "filters": { "all": "All", "web": "Web", "mobile": "Mobile", "ai": "AI", "python": "Python" },
+    "challenge": "Challenge",
+    "solution": "Our solution",
+    "result": "Result",
+    "stack": "Tech stack",
+    "details": "Project details",
+    "empty": "No projects found in this category.",
+    "viewProject": "View case study",
+    "similar": "Related projects"
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "subtitle": "From Berlin to Tehran — teams that shipped products with DevStudio.",
+    "items": [
+      { "name": "Elena Weiss", "role": "Head of Product, NexoBank", "country": "Germany", "quote": "DevStudio rebuilt our legacy platform in nine months. Response times improved 84% and their support team was always reachable." },
+      { "name": "Chris Murphy", "role": "Founder, RetailMind", "country": "United Kingdom", "quote": "The AI chatbot they built resolves 78% of our tickets automatically. That is a six-figure saving every year." },
+      { "name": "Maryam Sadeghi", "role": "CEO, Safar Travel", "country": "Iran", "quote": "Both rial and international payments were implemented flawlessly. Our booking completion went from 24% to 51%." },
+      { "name": "Arash Kamali", "role": "CTO, Medica Health", "country": "Canada", "quote": "Code quality and documentation were outstanding. Our app reached 4.8 stars and the in-house team took over smoothly." },
+      { "name": "Sofia Lind", "role": "COO, LogiFlow", "country": "Sweden", "quote": "Their Python automation removed 92% of our manual work. We saw a return on investment in five months." }
+    ]
+  },
+  "blog": {
+    "title": "Latest from the blog",
+    "subtitle": "Engineering lessons, technical guides and our view on the future of software.",
+    "allPosts": "All articles",
+    "searchPlaceholder": "Search articles...",
+    "noResults": "No article matches your search.",
+    "categories": {
+      "all": "All",
+      "python": "Python",
+      "mobile": "Mobile",
+      "web": "Web",
+      "ai": "AI",
+      "business": "Business",
+      "design": "Design"
+    },
+    "backToBlog": "Back to blog",
+    "share": "Share",
+    "author": "Author",
+    "tableOfContents": "In this article"
+  },
+  "cta": {
+    "title": "Ready to start your project?",
+    "subtitle": "Book a free 30-minute session. We scope the work, estimate time and budget, and hand you a technical roadmap.",
+    "primary": "Book a free consultation",
+    "secondary": "Talk to our AI assistant",
+    "note": "No commitment • Reply within 24 hours"
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Pricing based on project scope. Every package includes source code, documentation and deployment.",
+    "popular": "Most popular",
+    "choose": "Choose package",
+    "custom": "Custom enterprise package",
+    "customDesc": "Need a dedicated squad, a strict SLA or a complex architecture? We write a tailored proposal for you.",
+    "customButton": "Request a custom proposal",
+    "compareTitle": "Feature comparison",
+    "faqTitle": "Pricing FAQ",
+    "perProject": "per project",
+    "plans": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "price": "1,500",
+        "period": "starting at",
+        "desc": "For startups and small businesses that want to get online fast.",
+        "features": ["Landing page or 5-page website", "Responsive design and basic SEO", "Contact form with email routing", "1 month of free support", "Delivered in 2-3 weeks"]
+      },
+      {
+        "id": "professional",
+        "name": "Professional",
+        "price": "4,900",
+        "period": "starting at",
+        "desc": "For products that need a backend, an admin panel and integrations.",
+        "features": ["Full web or mobile application", "Admin panel and authentication", "Payments (Zarinpal / Stripe / USDT)", "AI features or a base chatbot", "3 months of support and monitoring", "Automated testing and CI/CD"]
+      },
+      {
+        "id": "enterprise",
+        "name": "Enterprise",
+        "price": "12,000",
+        "period": "starting at",
+        "desc": "For organisations with security, scale and dedicated-team requirements.",
+        "features": ["Dedicated squad of 4-8 engineers", "Microservices and scalable architecture", "99.9% uptime SLA", "Security audit and penetration testing", "24/7 support with a project manager", "Team training and full documentation"]
+      }
+    ],
+    "compare": {
+      "rows": [
+        { "label": "Custom UI design", "starter": true, "professional": true, "enterprise": true },
+        { "label": "Multilingual support (fa/en)", "starter": true, "professional": true, "enterprise": true },
+        { "label": "Admin panel & reporting", "starter": false, "professional": true, "enterprise": true },
+        { "label": "International & rial payments", "starter": false, "professional": true, "enterprise": true },
+        { "label": "AI / RAG chatbot", "starter": false, "professional": true, "enterprise": true },
+        { "label": "Microservice architecture", "starter": false, "professional": false, "enterprise": true },
+        { "label": "Dedicated squad & SLA", "starter": false, "professional": false, "enterprise": true },
+        { "label": "Pen test & security audit", "starter": false, "professional": false, "enterprise": true }
+      ]
+    },
+    "faq": [
+      { "q": "How do you calculate project cost?", "a": "Based on scope, number of screens or services, backend complexity and integration needs. After the free session you receive a written proposal with a cost breakdown and timeline." },
+      { "q": "Do you offer milestone payments?", "a": "Yes. Typically 30% upfront, 40% mid-development and 30% at final delivery." },
+      { "q": "Which payment methods work for Iranian clients?", "a": "Zarinpal in rial and USDT on the TRC20 network. International clients can also use Stripe or PayPal." },
+      { "q": "Who owns the source code?", "a": "Once the final invoice is settled, full ownership of the code and documentation transfers to you in your own repository." },
+      { "q": "Do you support us after launch?", "a": "Every package includes free support, and afterwards you can sign a monthly support contract with a defined SLA." },
+      { "q": "How long does a typical project take?", "a": "Corporate sites take 2-3 weeks, full web applications 6-10 weeks and enterprise platforms 3-6 months." }
+    ]
+  },
+  "about": {
+    "title": "About DevStudio",
+    "subtitle": "We are a global engineering team that believes great software should be reachable for every business.",
+    "storyTitle": "Our story",
+    "story": [
+      "DevStudio started in 2016 with three developers and one laptop. Our first project was a booking system for a small clinic that today handles thousands of visits a day.",
+      "We are now a 34-person team spread across four time zones, building products for businesses in Europe, the Middle East, North America and Asia around four specialisms: Python, mobile, modern web and AI.",
+      "We believe in transparent delivery: every client gets a progress dashboard, a weekly report and direct access to the engineering team. There are no hidden fees and the source code lives in a shared repository from day one."
+    ],
+    "valuesTitle": "Our values",
+    "values": [
+      { "title": "Engineering honesty", "desc": "If a simpler solution exists we recommend it — even when it is cheaper for us." },
+      { "title": "Full ownership", "desc": "We build your product like our own and stay accountable after launch." },
+      { "title": "Continuous learning", "desc": "Weekly hours dedicated to research, code review and internal training." },
+      { "title": "Global diversity", "desc": "A team of nine nationalities; different languages keep us close to our clients." }
+    ],
+    "teamTitle": "Leadership team",
+    "teamSubtitle": "The people guiding the architecture, design and delivery of your product.",
+    "team": [
+      { "name": "Sara Ahmadi", "role": "Co-founder & CTO", "bio": "Python architecture and distributed systems specialist with 12 years of experience.", "location": "Tehran" },
+      { "name": "Arman Rezaei", "role": "Co-founder & Head of Product", "bio": "Leads mobile delivery across apps with more than 5M combined installs.", "location": "Berlin" },
+      { "name": "Niloofar Karimi", "role": "Head of Product Design", "bio": "Designs scalable design systems and data-driven user experiences.", "location": "Amsterdam" },
+      { "name": "Amir Tavakoli", "role": "AI Lead", "bio": "Builds RAG pipelines and forecasting models for retail and healthcare.", "location": "Toronto" },
+      { "name": "Mina Hosseini", "role": "Delivery Manager", "bio": "Owns sprint planning, quality and communication with enterprise clients.", "location": "Dubai" },
+      { "name": "Chris Morgan", "role": "Mobile Lead", "bio": "React Native and Swift engineer focused on performance and stable releases.", "location": "London" }
+    ],
+    "certsTitle": "Certifications & awards",
+    "certs": [
+      { "title": "ISO/IEC 27001", "desc": "Information security management", "year": "2024" },
+      { "title": "AWS Advanced Partner", "desc": "Cloud architecture partnership", "year": "2023" },
+      { "title": "Google Cloud Partner", "desc": "Data and AI specialisation", "year": "2025" },
+      { "title": "Clutch Top 100", "desc": "Among the top 100 software developers", "year": "2025" },
+      { "title": "Meta Business Partner", "desc": "Verified React & React Native developer", "year": "2024" },
+      { "title": "SOC 2 Type I", "desc": "Security and data privacy controls", "year": "2025" }
+    ],
+    "milestonesTitle": "Our growth path"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Fill in the form or reach us directly — we reply within 24 business hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "company": "Company (optional)",
+      "phone": "Phone (optional)",
+      "projectType": "Project type",
+      "budget": "Estimated budget",
+      "message": "Project details",
+      "messagePlaceholder": "Tell us about the goal, your audience and your preferred timeline...",
+      "submit": "Send consultation request",
+      "success": "Your request was received! Our team will contact you within 24 hours.",
+      "error": "Submission failed. Please try again or use the chat widget.",
+      "privacy": "Your data is confidential and never shared with third parties.",
+      "projectTypes": [
+        { "value": "python", "label": "Python development" },
+        { "value": "mobile", "label": "Mobile application" },
+        { "value": "web", "label": "Website design" },
+        { "value": "ai", "label": "AI & chatbot" },
+        { "value": "other", "label": "Something else" }
+      ],
+      "budgets": [
+        { "value": "1-5", "label": "Under $5,000" },
+        { "value": "5-15", "label": "$5,000 – $15,000" },
+        { "value": "15-50", "label": "$15,000 – $50,000" },
+        { "value": "50+", "label": "Over $50,000" },
+        { "value": "unknown", "label": "Not sure yet" }
+      ],
+      "errors": {
+        "name": "Name must be at least 2 characters.",
+        "email": "Enter a valid email address.",
+        "projectType": "Please select a project type.",
+        "budget": "Please select a budget.",
+        "message": "Please describe your project in at least 20 characters."
+      }
+    },
+    "info": {
+      "title": "Contact information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Headquarters",
+      "addressValue": "Innovation Tower, 12th Floor, Technology St., Tehran",
+      "office2": "Europe office",
+      "address2Value": "Chausseestraße 12, 10115 Berlin, Germany",
+      "hours": "Working hours",
+      "hoursValue": "Sat–Thu, 9:00–18:00 (24/7 emergency support)",
+      "social": "Follow us",
+      "mapPin": "Tehran HQ",
+      "call": "Call us now",
+      "whatsapp": "Message on WhatsApp"
+    },
+    "mapTitle": "Headquarters location"
+  },
+  "chat": {
+    "title": "DevStudio Support Bot",
+    "subtitle": "Our AI assistant • Persian & English",
+    "placeholder": "Type your message...",
+    "welcome": "Hi there! 👋 I'm the DevStudio AI assistant. I can help with services, pricing, portfolio details and booking a free consultation. How can I help?",
+    "error": "Connection to the bot server failed. Please retry or use the contact form.",
+    "thinking": "Thinking",
+    "open": "Open chat",
+    "closeChat": "Close chat",
+    "clear": "Clear conversation",
+    "suggestions": ["How much does an app cost?", "I need an AI chatbot", "How long does a website take?", "What payment methods do you offer?"],
+    "badge": "Free consultation"
+  },
+  "payment": {
+    "title": "Complete your payment",
+    "subtitle": "Choose your preferred method. Our team starts the project as soon as payment is confirmed.",
+    "methods": {
+      "zarinpal": "Zarinpal (IRR)",
+      "zarinpalDesc": "Secure rial payments for clients inside Iran",
+      "usdt": "USDT (TRC20)",
+      "usdtDesc": "Fast crypto transfer with low fees",
+      "stripe": "Stripe",
+      "stripeDesc": "International cards (Visa / Mastercard)",
+      "paypal": "PayPal",
+      "paypalDesc": "Pay with your PayPal balance",
+      "payoneer": "Payoneer",
+      "payoneerDesc": "International bank transfer"
+    },
+    "amount": "Amount due",
+    "reference": "Reference",
+    "statusLabel": "Status",
+    "methodLabel": "Payment method",
+    "walletAddress": "TRC20 wallet address",
+    "scanQr": "Scan the QR with your wallet",
+    "networkWarning": "Use the TRC20 network only. Sending on another network will result in permanent loss.",
+    "emailLabel": "Email for the invoice",
+    "createOrder": "Create payment order",
+    "openGateway": "Continue to payment gateway",
+    "sandboxNote": "Sandbox mode is active — no real payment will be processed.",
+    "status": {
+      "pending": "Pending",
+      "paid": "Paid",
+      "failed": "Failed"
+    },
+    "success": "Your order was created. Details will be emailed to you.",
+    "failed": "Could not create the order. Please try again.",
+    "recentOrders": "Recent orders"
+  },
+  "pwa": {
+    "install": "Install app",
+    "installed": "Installed ✓",
+    "title": "Install DevStudio on your phone",
+    "desc": "Faster access, offline support and notifications — no app store needed.",
+    "later": "Later",
+    "iosTitle": "Install on iPhone & iPad",
+    "iosStep1": "Tap the Share button in Safari",
+    "iosStep2": "Choose Add to Home Screen",
+    "iosStep3": "Then tap Add in the top corner",
+    "gotIt": "Got it",
+    "pushTitle": "Enable notifications?",
+    "pushDesc": "Get notified about offers, new articles and project status.",
+    "enable": "Enable",
+    "dismiss": "No, thanks"
+  },
+  "footer": {
+    "about": "An international software development agency building digital products for businesses in 40+ countries since 2016.",
+    "quickLinks": "Quick links",
+    "servicesTitle": "Our services",
+    "contactTitle": "Get in touch",
+    "newsletter": "Subscribe to our engineering newsletter",
+    "newsletterDesc": "One in-depth technical article a month, no spam.",
+    "newsletterPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "subscribed": "You are subscribed!",
+    "rights": "All rights reserved.",
+    "madeWith": "Built with ❤️ by the DevStudio team",
+    "servicesList": ["Python development", "Mobile applications", "Website design", "AI & chatbots", "Technical consulting"]
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for does not exist or has moved.",
+    "home": "Back to home"
+  }
+}
